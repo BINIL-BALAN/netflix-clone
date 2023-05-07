@@ -1,0 +1,29 @@
+.logo{
+    color: red;
+    background: transparent;
+    height: 2rem;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+.navigation{
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     justify-content: space-between;
+  /* Animation */
+     transition-timing-function: linear;
+    transition: all 0.3s;
+}
+
+.navigationOnScroll{
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+     transition: ease-in-out 800ms;
+}
